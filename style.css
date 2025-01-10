@@ -66,3 +66,14 @@ footer {
 .lightbox-content img {
     border-radius: 5px;
 }
+
+.lightbox-content button {
+    background-color: rgba(0, 0, 0, 6);
+    color: white;
+    /* border: none; */
+    font-size: 1.5rem;
+    cursor: pointer;
+    padding: 0.5rem;
+    margin: 0 1rem;
+    border-radius: 50%;
+}
