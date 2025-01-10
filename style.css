@@ -67,6 +67,12 @@ footer {
     border-radius: 5px;
 }
 
+.lightbox-content {
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
 .lightbox-content button {
     background-color: rgba(0, 0, 0, 6);
     color: white;
