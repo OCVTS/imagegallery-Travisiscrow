@@ -43,6 +43,19 @@ footer {
     transform: scale(1.1);
 }
 
+#gallery-container figure {
+    margin: 0;
+    padding: 10px;
+    text-align: center;
+}
+
+#gallery-container figcaption {
+    margin-top: 5px;
+    font-size: 0.9rem;
+    color: #555;
+    font-style: italic;
+}
+
 #lightbox {
     position: fixed;
     top: 0;
