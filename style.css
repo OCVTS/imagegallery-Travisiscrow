@@ -37,10 +37,13 @@ footer {
 #gallery-container img {
     border-radius: 5px;
     transition: transform 0.08s ease;
+    filter: grayscale(50%) contrast(80%) brightness(0.9);
+
 }
 
 #gallery-container img:hover {
     transform: scale(1.1);
+    filter: none;
 }
 
 #gallery-container figure {
