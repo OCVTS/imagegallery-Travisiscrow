@@ -125,6 +125,13 @@ footer {
     #gallery-container {
         grid-template-columns: repeat(2, 1fr);
     }
+    #prev {
+        left: 10vw;
+    }
+    
+    #next {
+        right: 10vw;
+    }
 }
 
 @media (max-width: 480px) {
